@@ -1,0 +1,481 @@
+@font-face {
+  font-family: pressStart2P;
+  src: url('../fonts/PressStart2P.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* md (tablets, 768px(300%) and up) */
+@media (max-width: 768.98px) {
+  .golds {
+    /* background-color: chocolate; */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+  }
+
+  .gold {
+    width: 400px;
+    height: 200px;
+  }
+
+  .gold_table {
+    background-image: url("../images/mint/Gold.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+    width: 100px;
+    padding: 0px;
+    /* background-color: rgb(79, 104, 96); */
+    position: relative;
+    top: 7%;
+    left: 5%;
+    /* background-color: rgb(79, 104, 96); */
+  }
+
+  .imgdiv-gold {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    /* background-color: aquamarine; */
+  }
+  .imgdiv-gold >img{
+    width: 60%;
+    height: 80%;
+  }
+
+  .gold_img {
+    height: 65px;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .gold-minus-img {
+    height: 12px;
+    width: 12px;
+  }
+
+  .gold-plus-img {
+    height: 12px;
+    width: 12px;
+  }
+
+  .gold-btn {
+    padding: 0px;
+  }
+
+  .gold_charanum {
+    /* width: 50px; */
+    margin: 0px;
+    /* background-color: antiquewhite; */
+  }
+
+  .input-number-gold {
+    font-size: 6px;
+    font-weight: bold;
+    color: white;
+    background-color: #6B4A3D;
+    padding: 0px;
+    border: 0px;
+    height: 12px;
+    width: 38px;
+    position: relative;
+    top: -1px;
+  }
+
+  .btn-buy-gold>img {
+    width: 52px;
+    height: 22px;
+    position: relative;
+    top: -8px;
+  }
+
+  .gold_page {
+    margin: 8px;
+  }
+
+  .gold_page>img {
+    width: 110px;
+    height: 30px;
+  }
+
+  .sum {
+    color: white;
+    font-size: 5px;
+    position: relative;
+    top: -12%;
+    margin-left: 35%;
+    /* background-color: aquamarine; */
+  }
+
+  .gold_time {
+    position: relative;
+    top: -30px;
+    left: 265px;
+    /* background-color: aqua; */
+    z-index: 9;
+    padding: 5px;
+    padding-right: 12px;
+    height: 20px;
+    font-size: 6px;
+    color: white;
+  }
+}
+
+/* md (tablets, 768px(200%) and up) */
+@media (min-width: 768px) {
+  .golds {
+    /* background-color: chocolate; */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+  }
+
+  .gold {
+    width: 500px;
+    height: 300px;
+  }
+
+  .gold_table {
+    background-image: url("../images/mint/Gold.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 230px;
+    width: 145px;
+    padding: 0px;
+    /* background-color: rgb(79, 104, 96); */
+    position: relative;
+    top: 7%;
+    left: 5%;
+    /* background-color: rgb(79, 104, 96); */
+  }
+
+  .imgdiv-gold {
+    width: 100%;
+    height: 95px;
+    margin-bottom: 10px;
+    /* background-color: aquamarine; */
+  }
+
+  .imgdiv-gold>img {
+    width: 60%;
+    height: 80%;
+  }
+
+  .gold_img {
+    height: 115px;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .gold-minus-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .gold-plus-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .gold-btn {
+    padding: 0px;
+  }
+
+  .gold_charanum {
+    /* width: 50px; */
+    margin: 0px;
+    /* background-color: antiquewhite; */
+  }
+
+  .input-number-gold {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #6B4A3D;
+    padding: 0px;
+    border: 0px;
+    height: 20px;
+    width: 55px;
+    position: relative;
+    top: 2px;
+  }
+
+  .btn-buy-gold>img {
+    width: 75px;
+    height: 32px;
+  }
+
+  .gold_page {
+    margin: 10px;
+  }
+
+  .gold_page>img {
+    width: 150px;
+    height: 40px;
+  }
+
+  .sum {
+    color: white;
+    font-size: 7px;
+    padding-left: 5%;
+    position: relative;
+    top: -15%;
+    margin-left: 30%;
+    /* background-color: aquamarine; */
+  }
+
+  .gold_time {
+    position: relative;
+    top: -35px;
+    left: 310px;
+    /* background-color: aqua; */
+    z-index: 9;
+    padding: 8px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: 8px;
+    color: white;
+  }
+}
+
+
+
+/* lg (desktops, 992px (175%)and up) */
+@media (min-width: 992px) {
+  .golds {
+    /* background-color: chocolate; */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+  }
+
+  .gold {
+    /* background-color: aquamarine; */
+    width: 600px;
+    height: 350px;
+  }
+
+  .gold_table {
+    background-image: url("../images/mint/Gold.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 260px;
+    width: 160px;
+    padding: 0px;
+    /* background-color: rgb(79, 104, 96); */
+    position: relative;
+    top: 7%;
+    left: 5%;
+  }
+
+  .imgdiv-gold {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 20px;
+    /* background-color: aquamarine; */
+  }
+
+  .imgdiv-gold>img {
+    width: 60%;
+    height: 80%;
+  }
+
+  .gold_img {
+    height: 115px;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .gold-minus-img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .gold-plus-img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .gold-btn {
+    padding: 0px;
+  }
+
+  .gold_charanum {
+    /* width: 50px; */
+    margin: 0px;
+    /* background-color: antiquewhite; */
+  }
+
+  .input-number-gold {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #6B4A3D;
+    padding: 0px;
+    border: 0px;
+    height: 26px;
+    width: 60px;
+    position: relative;
+    /* top: -1px; */
+  }
+
+  .btn-buy-gold>img {
+    width: 90px;
+    height: 40px;
+  }
+
+  .gold_page {
+    margin: 10px;
+  }
+
+  .gold_page>img {
+    width: 180px;
+    height: 50px;
+  }
+
+  .sum {
+    color: white;
+    font-size: 8px;
+    margin-left: 33%;
+    padding-left: 3%;
+    position: relative;
+    top: -20%;
+    /* background-color: aquamarine; */
+  }
+
+  .gold_time {
+    position: relative;
+    top: -35px;
+    left: 380px;
+    /* background-color: aqua; */
+    z-index: 9;
+    padding: 8px;
+    padding-right: 20px;
+    height: 32px;
+    font-size: 10px;
+    color: white;
+  }
+}
+
+/* xl devices (large desktops, 1200px (100%) and up) */
+@media (min-width: 1200px) {
+
+  /* 金角色 */
+  .golds {
+    /* background-color: chocolate; */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+  }
+
+  .gold {
+    width: 1000px;
+    height: 550px;
+  }
+
+  .gold_table {
+    background-image: url("../images/mint/Gold.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 410px;
+    width: 255px;
+    padding: 0px;
+    /* background-color: rgb(79, 104, 96); */
+    position: relative;
+    top: 7%;
+    left: 5%;
+  }
+
+  .imgdiv-gold {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 35px;
+    /* background-color: aquamarine; */
+  }
+
+  .imgdiv-gold>img {
+    width: 60%;
+    height: 80%;
+  }
+
+  .gold_img {
+    height: 200px;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .gold-minus-img {
+    height: 33px;
+    width: 33px;
+  }
+
+  .gold-plus-img {
+    height: 33px;
+    width: 33px;
+  }
+
+  .gold-btn {
+    padding: 0px;
+  }
+
+  .gold_charanum {
+    /* width: 50px; */
+    margin: 0px;
+    /* background-color: antiquewhite; */
+  }
+
+  .input-number-gold {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #6B4A3D;
+    padding: 0px;
+    border: 0px;
+    height: 35px;
+    width: 75px;
+    position: relative;
+    top: -1px;
+  }
+
+  .btn-buy-gold>img {
+    width: 120px;
+    height: 50px;
+  }
+
+  .gold_page {
+    margin: 10px;
+  }
+
+  .gold_page>img {
+    width: 250px;
+    height: 60px;
+  }
+
+  .sum {
+    color: white;
+    font-size: 15px;
+    margin-left: 30%;
+    padding-left: 7%;
+    position: relative;
+    top: -10%;
+    /* background-color: aquamarine; */
+  }
+
+  .gold_time {
+    position: relative;
+    top: -45px;
+    left: 650px;
+    /* background-color: aqua; */
+    z-index: 9;
+    padding: 13px;
+    padding-right: 40px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+  }
+}

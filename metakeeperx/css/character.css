@@ -1,0 +1,702 @@
+@font-face {
+    font-family: pressStart2P;
+    src: url('../fonts/PressStart2P.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* md (tablets, 768px(300%) and up) */
+@media (max-width: 768.98px) {
+    .top {
+        /* background-color: beige; */
+        width: 100%;
+        height: 200px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 60%;
+        /* padding-top: 100px; */
+        /* background-color: aqua; */
+    }
+
+    .logo_btn>img {
+        width: 90px;
+        height: 18px;
+    }
+
+    .bgflex {
+        width: 100%;
+        height: 20%;
+        /* background-color: aquamarine; */
+        position: relative;
+        top: -110px;
+    }
+
+    .bgflex>img {
+        width: 100%;
+        height: 350px;
+        /* background-color: bisque; */
+    }
+
+    .logo>img {
+        width: 165px;
+        height: 95px;
+    }
+
+
+    .bodytitle {
+        color: white;
+        font-size: 14px;
+    }
+
+    .characters {
+        /* height: 2000px; */
+        /* background-color: chocolate; */
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
+
+    .character {
+        /* background-color: aquamarine; */
+        width: 400px;
+        height: 200px;
+    }
+    /* .gold{
+        width: 400px;
+        height: 200px;
+    } */
+
+    .character_title {
+        /* background-color: rgb(173, 242, 133); */
+        height: 40px;
+        width: 100%;
+        font-size: 15px;
+        color: white;
+    }
+
+    .character_title_item {
+        width: 400px;
+        height: 35px;
+        /* background-color: rgb(195, 135, 57); */
+    }
+
+    .character_table {
+        background-image: url("../images/mint/Normal.svg");
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 100px;
+        padding: 0px;
+        /* background-color: rgb(79, 104, 96); */
+        position: relative;
+        top: 7%;
+        left: 5%;
+    }
+/* 
+    .gold_table{
+        background-image: url("../images/mint/Gold.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 150px;
+        width: 100px;
+        padding: 0px;
+        background-color: rgb(79, 104, 96);
+        position: relative;
+        top: 7%;
+        left: 5%;
+    } */
+    .imgdiv-cha {
+        width: 100%;
+        height: 80px;
+        margin-bottom: 5px;
+        /* background-color: aquamarine; */
+    }
+
+    .imgdiv-cha>img {
+        width: 60%;
+        height: 60%;
+        /* background-color: rgb(127, 170, 155); */
+    }
+
+    .character_img {
+        height: 65px;
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+
+
+    .character-minus-img {
+        height: 12px;
+        width: 12px;
+    }
+
+    .character-plus-img {
+        height: 12px;
+        width: 12px;
+    }
+
+    .character-btn {
+        padding: 0px;
+    }
+
+    .character_charanum {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .input-number-character {
+        font-size: 6px;
+        font-weight: bold;
+        color: white;
+        background-color: #6B4A3D;
+        padding: 0px;
+        border: 0px;
+        height: 12px;
+        width: 38px;
+        position: relative;
+        top: -1px;
+    }
+
+    .btn-buy-character>img {
+        width: 52px;
+        height: 22px;
+        position: relative;
+        top: -8px;
+    }
+
+    .character_page {
+        margin: 8px;
+    }
+
+    .character_page>img {
+        width: 110px;
+        height: 30px;
+    }
+
+
+}
+
+/* md (tablets, 768px(200%) and up) */
+@media (min-width: 768px) {
+    .top {
+        /* background-color: beige; */
+        width: 100%;
+        height: 330px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 60%;
+        /* padding-top: 100px; */
+        /* background-color: aqua; */
+    }
+
+    .bgflex {
+        width: 100%;
+        height: 20%;
+        /* background-color: aquamarine; */
+        position: relative;
+        top: -130px;
+    }
+
+    .bgflex>img {
+        width: 100%;
+        height: 500px;
+        /* background-color: bisque; */
+    }
+
+    .logo>img {
+        width: 260px;
+        height: 120px;
+    }
+
+    .logo_btn>img {
+        width: 115px;
+        height: 25px;
+    }
+
+    .bodytitle {
+        color: white;
+        font-size: 22px;
+    }
+
+    .characters {
+        /* height: 2000px; */
+        /* background-color: chocolate; */
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
+
+    .character {
+        /* background-color: aquamarine; */
+        width: 500px;
+        height: 300px;
+    }
+
+    /* .gold {
+        background-color: aquamarine;
+        width: 500px;
+        height: 300px;
+    } */
+
+    .character_title {
+        /* background-color: rgb(173, 242, 133); */
+        height: 65px;
+        width: 100%;
+        font-size: 20px;
+        color: white;
+    }
+
+    .character_title_item {
+        width: 500px;
+        height: 50px;
+        /* background-color: rgb(195, 135, 57); */
+    }
+
+    .character_table {
+        background-image: url("../images/mint/Normal.svg");
+        background-repeat: no-repeat;
+        height: 230px;
+        width: 145px;
+        padding: 0px;
+        /* background-color: rgb(79, 104, 96); */
+        position: relative;
+        top: 7%;
+        left: 5%;
+    }
+
+    /* .gold_table {
+        background-image: url("../images/mint/Gold.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 230px;
+        width: 145px;
+        padding: 0px;
+        background-color: rgb(79, 104, 96);
+        position: relative;
+        top: 7%;
+        left: 5%;
+    } */
+
+    .imgdiv-cha {
+        width: 100%;
+        height: 125px;
+        margin-bottom: 15px;
+        /* background-color: aquamarine; */
+    }
+
+    .imgdiv-cha>img {
+        width: 60%;
+        height: 60%;
+        /* background-color: rgb(127, 170, 155); */
+    }
+
+    .character_img {
+        height: 115px;
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+
+    .character-minus-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .character-plus-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .character-btn {
+        padding: 0px;
+    }
+
+    .character_charanum {
+        margin: 0px;
+        /* background-color: antiquewhite; */
+    }
+
+    .input-number-character {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color: #6B4A3D;
+        padding: 0px;
+        border: 0px;
+        height: 20px;
+        width: 55px;
+        position: relative;
+        top: 2px;
+    }
+
+    .btn-buy-character>img {
+        width: 75px;
+        height: 32px;
+    }
+
+    .character_page {
+        margin: 10px;
+    }
+
+    .character_page>img {
+        width: 150px;
+        height: 40px;
+    }
+
+
+}
+
+
+/* lg (desktops, 992px (175%)and up) */
+@media (min-width: 992px) {
+    .top {
+        /* background-color: beige; */
+        width: 100%;
+        height: 410px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 60%;
+        /* padding-top: 100px; */
+        /* background-color: aqua; */
+    }
+
+    .bgflex {
+        width: 100%;
+        height: 20%;
+        /* background-color: aquamarine; */
+        position: relative;
+        top: -130px;
+    }
+
+    .bgflex>img {
+        width: 100%;
+        height: 550px;
+        /* background-color: bisque; */
+    }
+
+
+    .logo>img {
+        width: 300px;
+        height: 140px;
+
+    }
+
+    .logo_btn>img {
+        width: 140px;
+        height: 30px;
+    }
+
+    .bodytitle {
+        color: white;
+        font-size: 26px;
+    }
+
+    .characters {
+        /* height: 2000px; */
+        /* background-color: chocolate; */
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
+
+    .character {
+        /* background-color: aquamarine; */
+        width: 600px;
+        height: 350px;
+    }
+/* 
+    .gold {
+        background-color: aquamarine;
+        width: 600px;
+        height: 350px;
+    } */
+
+    .character_title {
+        /* background-color: rgb(173, 242, 133); */
+        height: 65px;
+        width: 100%;
+        font-size: 30px;
+        color: white;
+    }
+
+    .character_title_item {
+        width: 600px;
+        height: 65px;
+        /* background-color: rgb(195, 135, 57); */
+    }
+
+    .character_table {
+        background-image: url("../images/mint/Normal.svg");
+        background-repeat: no-repeat;
+        height: 260px;
+        width: 160px;
+        padding: 0px;
+        /* background-color: rgb(79, 104, 96); */
+        position: relative;
+        top: 7%;
+        left: 5%;
+    }
+/* 
+    .gold_table {
+        background-image: url("../images/mint/Gold.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 260px;
+        width: 160px;
+        padding: 0px;
+        background-color: rgb(79, 104, 96);
+        position: relative;
+        top: 7%;
+        left: 5%;
+    } */
+
+    .imgdiv-cha {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+        /* background-color: aquamarine; */
+    }
+
+    .imgdiv-cha>img {
+        width: 60%;
+        height: 60%;
+        /* background-color: rgb(127, 170, 155); */
+    }
+
+    .character_img {
+        height: 115px;
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+
+    .character-minus-img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .character-plus-img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .character-btn {
+        padding: 0px;
+    }
+
+    .character_charanum {
+        /* width: 50px; */
+        margin: 0px;
+        /* background-color: antiquewhite; */
+    }
+
+    .input-number-character {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color: #6B4A3D;
+        padding: 0px;
+        border: 0px;
+        height: 25px;
+        width: 60px;
+    }
+
+    .btn-buy-character>img {
+        width: 90px;
+        height: 40px;
+    }
+
+    .character_page {
+        margin: 10px;
+    }
+
+    .character_page>img {
+        width: 180px;
+        height: 50px;
+    }
+
+
+
+}
+
+/* xl devices (large desktops, 1200px (100%) and up) */
+@media (min-width: 1200px) {
+    .top {
+        /* background-color: beige; */
+        width: 100%;
+        height: 750px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 60%;
+        /* padding-top: 100px; */
+        /* background-color: aqua; */
+    }
+
+    .bgflex {
+        width: 100%;
+        height: 20%;
+        /* background-color: aquamarine; */
+        position: relative;
+        top: -170px;
+    }
+
+    .bgflex>img {
+        width: 100%;
+        height: 900px;
+        /* background-color: bisque; */
+    }
+
+    .logo>img {
+        width: 500px;
+        height: 260px;
+    }
+
+    .logo_btn>img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .mintbody {
+        padding: 0px;
+    }
+
+
+    .bodytitle {
+        color: white;
+        font-size: 48px;
+        /* position: relative; */
+        /* background-color: antiquewhite; */
+    }
+
+    .characters {
+        /* height: 2000px; */
+        /* background-color: chocolate; */
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
+
+    /* .gold {
+        width: 1000px;
+        height: 550px;
+    } */
+
+    .character {
+        /* background-color: aquamarine; */
+        width: 1000px;
+        height: 550px;
+    }
+
+    .character_title {
+        /* background-color: rgb(173, 242, 133); */
+        height: 100px;
+        width: 100%;
+        font-size: 40px;
+        color: white;
+    }
+
+    .character_title_item {
+        width: 1000px;
+        height: 100px;
+        /* background-color: rgb(195, 135, 57); */
+    }
+
+    .character_table {
+        background-image: url("../images/mint/Normal.svg");
+        background-repeat: no-repeat;
+        height: 410px;
+        width: 255px;
+        padding: 0px;
+        /* background-color: rgb(79, 104, 96); */
+        position: relative;
+        top: 7%;
+        left: 5%;
+    }
+/* 
+    .gold_table {
+        background-image: url("../images/mint/Gold.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 410px;
+        width: 255px;
+        padding: 0px;
+        background-color: rgb(79, 104, 96);
+        position: relative;
+        top: 7%;
+        left: 5%;
+    } */
+
+    .imgdiv-cha {
+        width: 100%;
+        height: 230px;
+        margin-bottom: 30px;
+        /* background-color: aquamarine; */
+    }
+
+    .imgdiv-cha>img {
+        width: 60%;
+        height: 60%;
+        /* background-color: aquamarine; */
+    }
+
+    .character_img {
+        height: 200px;
+        width: 100%;
+
+        /* background-color: chartreuse; */
+    }
+
+    .character-minus-img {
+        height: 33px;
+        width: 33px;
+    }
+
+    .character-plus-img {
+        height: 33px;
+        width: 33px;
+    }
+
+    .character-btn {
+        padding: 0px;
+    }
+
+    .character_charanum {
+        margin: 0px;
+    }
+
+    .input-number-character {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color: #6B4A3D;
+        padding: 0px;
+        border: 0px;
+        height: 36px;
+        width: 75px;
+        position: relative;
+        top: -1px;
+    }
+
+    .btn-buy-character>img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .character_page {
+        margin: 20px;
+    }
+
+    .character_page>img {
+        width: 250px;
+        height: 60px;
+    }
+}

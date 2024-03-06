@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.3/dist/css/bootstrap.min.css">
+  <link href="../css/home.css" rel="stylesheet">
+</head>
+<style>
+  body {
+    background-image: url("../images/home/Homebg.png");
+    transition: background-image 2s ease-in-out;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    font-family: pressStart2P;
+  }
+
+  a {
+    color: inherit;
+    /* 设置颜色为默认值（inherit）*/
+    text-decoration: none;
+    /* 移除下划线效果 */
+  }
+</style>
+
+<body>
+  <!-- 导航栏 -->
+  <header>
+    <nav class="navbar navbar-dark navbar-fixed-top navbar-expand-lg navbar-transparent" role="navigation"
+      style="padding: 0px;">
+      <div class="box_header container-fluid text-center">
+        <a class="navbar-brand atitle" data-field="home" href="home.html" style="width: 35%;height: 100%;">
+          <img src="../images/header/Logo 1.png" width="60px" height="60px" class="img_logo rounded float-start">
+        </a>
+        <!-- 隐藏icon -->
+        <div class="toggler_icon" style="display: flex; flex-direction:row;justify-content: end;">
+          <div class="toggler_icon" style="width: 30px;">
+            <a href="https://twitter.com/Meta_Keeper" target="_blank">
+              <svg width="28" height="28" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M163.519 194.22H184.93L132.754 121.207L126.52 112.455L86.3755 56.2818H64.9641L163.519 194.22Z"
+                  fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M125 250C194.036 250 250 194.036 250 125C250 55.9644 194.036 0 125 0C55.9644 0 0 55.9644 0 125C0 194.036 55.9644 250 125 250ZM198.875 46L140.049 112.909L204 204H156.949L113.869 142.647L59.9378 204H46L107.688 133.841L46 46H93.051L133.836 104.084L184.937 46H198.875Z"
+                  fill="white" />
+              </svg>
+            </a>
+
+          </div>
+          <div class="toggler_icon" style="margin-left: 5px;width: 30px;">
+            <a href="https://t.me/MetaKeeperEN" target="_blank">
+              <svg width="28" height="28" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M125 0C194.038 0 250 55.962 250 125C250 194.038 194.038 250 125 250C55.962 250 0 194.038 0 125C0 55.962 55.962 0 125 0ZM168.12 175.951C170.418 168.897 181.19 98.5924 182.522 84.7391C182.924 80.5435 181.598 77.7554 179 76.5109C175.859 75 171.207 75.7554 165.81 77.7011C158.408 80.3696 63.7772 120.549 58.3098 122.875C53.125 125.076 48.2228 127.478 48.2228 130.957C48.2228 133.402 49.6739 134.777 53.6739 136.207C57.837 137.69 68.3207 140.87 74.5109 142.576C80.4728 144.223 87.2609 142.793 91.0652 140.429C95.0978 137.924 141.636 106.783 144.978 104.054C148.315 101.326 150.978 104.821 148.25 107.554C145.522 110.283 113.576 141.288 109.364 145.582C104.25 150.793 107.88 156.196 111.31 158.359C115.228 160.826 143.408 179.728 147.652 182.761C151.897 185.793 156.201 187.168 160.141 187.168C164.082 187.168 166.158 181.978 168.12 175.951Z"
+                  fill="white" />
+              </svg>
+            </a>
+
+          </div>
+          <div class="toggler_icon" style="margin-left: 5px;width: 30px;">
+            <a href="https://discord.com/invite/cNh2f5MdRy" target="_blank">
+              <svg width="28" height="28" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M77.9166 130.581C77.9166 140.688 85.2079 148.989 94.0989 148.989C103.146 148.989 110.295 140.688 110.281 130.581C110.437 120.459 103.146 112.159 94.0989 112.159C85.0522 112.159 77.9166 120.473 77.9166 130.581Z"
+                  fill="white" />
+                <path
+                  d="M137.718 130.581C137.718 140.688 145.01 148.989 153.901 148.989C162.947 148.989 170.083 140.688 170.083 130.581C170.238 120.459 162.947 112.159 153.901 112.159C144.854 112.159 137.718 120.473 137.718 130.581Z"
+                  fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M125 250C194.036 250 250 194.036 250 125C250 55.9644 194.036 0 125 0C55.9644 0 0 55.9644 0 125C0 194.036 55.9644 250 125 250ZM149.342 54C162.367 56.256 174.825 60.2179 186.477 65.6694C206.85 96.0935 216.973 130.407 213.235 169.984C197.647 181.639 182.527 188.71 167.662 193.338C163.981 188.291 160.724 182.912 157.907 177.273C163.273 175.234 168.426 172.717 173.296 169.782C172.022 168.828 170.762 167.83 169.531 166.803C140.267 180.656 108.086 180.656 78.4689 166.803C77.2515 167.83 75.9913 168.828 74.7031 169.782C79.559 172.703 84.6981 175.219 90.0638 177.258C87.2465 182.912 83.9762 188.277 80.3093 193.323C65.4581 188.696 50.3519 181.625 34.7644 169.984C31.5789 135.844 37.9498 101.212 61.4514 65.6984C73.1031 60.2325 85.576 56.256 98.6152 54C100.229 56.8921 102.14 60.782 103.429 63.8763C117.02 61.7942 130.739 61.7942 144.585 63.8763C145.873 60.782 147.742 56.8921 149.342 54Z"
+                  fill="white" />
+              </svg>
+            </a>
+
+          </div>
+          <div class="toggler_icon" style="margin-left: 5px;width: 30px;">
+            <a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?pli=1"
+              target="_blank">
+              <svg width="28" height="28" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M125 250C194.036 250 250 194.036 250 125C250 55.9644 194.036 0 125 0C55.9644 0 0 55.9644 0 125C0 194.036 55.9644 250 125 250ZM102.506 55.6727C106.139 52.6804 111.064 50.9996 116.2 51C121.336 50.9996 126.261 52.6804 129.894 55.6727C133.526 58.665 135.568 62.7239 135.571 66.957C135.566 69.226 134.974 71.4679 133.835 73.5336C132.696 75.5991 131.036 77.4408 128.966 78.9359C127.791 80.5427 127.051 82.443 127.051 84.25C127.051 85.9711 127.73 87.5337 128.802 88.9109H154.2C162.621 88.9109 169.4 95.6902 169.4 104.111V130.251C170.71 131.188 172.19 131.75 173.794 131.75C175.5 131.75 177.225 131.156 178.737 130.162C180.228 127.853 182.132 125.986 184.304 124.7C186.477 123.414 188.862 122.744 191.28 122.74C195.513 122.743 199.572 124.785 202.564 128.417C205.556 132.05 207.237 136.975 207.237 142.111C207.237 147.246 205.556 152.172 202.564 155.805C199.572 159.437 195.513 161.479 191.28 161.482C189.008 161.479 186.763 160.889 184.695 159.75C182.627 158.611 180.783 156.949 179.286 154.877C177.679 153.702 175.794 152.962 173.987 152.962C172.297 152.962 170.76 153.617 169.4 154.654V180.111C169.4 188.532 162.621 195.311 154.2 195.311H78.2C69.7792 195.311 63 188.532 63 180.111V154.654C64.3602 153.617 65.8969 152.962 67.5867 152.962C69.3938 152.962 71.2792 153.702 72.886 154.877C74.3827 156.949 76.2269 158.611 78.2952 159.75C80.3634 160.889 82.6083 161.479 84.8796 161.482C89.1128 161.479 93.1718 159.437 96.1641 155.805C99.1564 152.172 100.837 147.246 100.837 142.111C100.837 136.975 99.1564 132.05 96.1641 128.417C93.1718 124.785 89.1128 122.743 84.8796 122.74C82.4623 122.744 80.0771 123.414 77.9044 124.7C75.7316 125.986 73.8279 127.853 72.3367 130.162C70.8254 131.156 69.1 131.75 67.3938 131.75C65.7902 131.75 64.3103 131.189 63 130.251V104.111C63 95.6902 69.7792 88.9109 78.2 88.9109H104.281C105.252 87.5829 105.839 86.0774 105.839 84.443C105.839 82.7367 105.245 81.0112 104.251 79.5C101.942 78.0089 100.075 76.1052 98.7893 73.9325C97.5035 71.7596 96.8333 69.3745 96.8289 66.957C96.8318 62.7239 98.874 58.665 102.506 55.6727Z"
+                  fill="white" />
+              </svg>
+            </a>
+
+          </div>
+          <div class="toggler_icon" style="margin-left: 5px;width: 30px;">
+            <a>
+              <svg width="28" height="28" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M208.333 156.25C214.086 156.25 218.75 151.586 218.75 145.833C218.75 140.08 214.086 135.417 208.333 135.417C202.58 135.417 197.917 140.08 197.917 145.833C197.917 151.586 202.58 156.25 208.333 156.25Z"
+                  fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M174.74 10.2646C192.624 4.79988 211.272 16.1613 214.618 34.5605L218.085 53.6351C230.569 57.7318 239.583 69.4798 239.583 83.3334V112.124C245.976 117.846 250 126.162 250 135.417V156.25C250 165.505 245.976 173.821 239.583 179.543V208.333C239.583 225.593 225.593 239.583 208.333 239.583H41.6666C24.4078 239.583 10.4166 225.593 10.4166 208.333V83.3334C10.4166 67.8447 21.6847 54.988 36.4706 52.5134L174.74 10.2646ZM218.75 166.667C224.503 166.667 229.167 162.003 229.167 156.25V135.417C229.167 129.664 224.503 125 218.75 125H187.5C181.747 125 177.083 129.664 177.083 135.417V156.25C177.083 162.003 181.747 166.667 187.5 166.667H218.75ZM218.75 187.5V208.333C218.75 214.087 214.086 218.75 208.333 218.75H41.6666C35.9137 218.75 31.25 214.087 31.25 208.333V83.3334C31.25 77.5805 35.9137 72.9167 41.6666 72.9167H208.333C214.062 72.9167 218.71 77.5413 218.75 83.2608V104.167H187.5C170.241 104.167 156.25 118.157 156.25 135.417V156.25C156.25 173.509 170.241 187.5 187.5 187.5H218.75ZM194.744 37.5735L197.304 52.0834H104.167L181.492 29.4064C187.463 27.6151 193.66 31.4343 194.744 37.5735Z"
+                  fill="white" />
+              </svg>
+            </a>
+
+          </div>
+        </div>
+        <!-- 隐藏按钮 -->
+        <button class="navbar-toggler toggler_btn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- title -->
+        <div class="collapse navbar-collapse " style="height: 100%;width: 65%;" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto" role="tablist">
+            <!-- title -->
+            <li class="text_head_item nav-item home_head">
+              <a class="nav-link atitle d-flex align-items-center " data-field="home" href="home.html">
+                <img src="../images/header/home.png">
+              </a>
+            </li>
+            <li class="text_head_item nav-item nft_head">
+              <a class="nav-link atitle d-flex align-items-center " data-field="nft" href="nft.html">
+                <img src="../images/header/mint1.png">
+              </a>
+            </li>
+            <li class="text_head_item nav-item whitepaper_head">
+              <a class="nav-link atitle d-flex align-items-center " data-field="whitepaper"
+                href="https://keeper-meta.gitbook.io/meta-keeper-white-paper/"target="_blank">
+                <img src="../images/header/whit1.png">
+              </a>
+            </li>
+            <li class="text_head_item nav-item game_head">
+              <a class="nav-link atitle d-flex align-items-center " data-field="gamepass" href="gamepass.html">
+                <img src="../images/header/game1.png">
+              </a>
+            </li>
+            <!-- 登录注册隐藏按钮 -->
+            <li class="text_head_item nav-item register">
+              <a class="nav-link atitle d-flex align-items-center " type="button"
+                href="https://keeper-meta.gitbook.io/meta-keeper-white-paper/" style="height: 100%;" target="_blank">
+                <img src="../images/header/register.png">
+              </a>
+            </li>
+
+            <!-- logo -->
+            <li class="nav-item init_icon">
+              <a href="https://twitter.com/Meta_Keeper" target="_blank">
+                <img src="../images/header/Twitter_logo.png">
+              </a>
+
+            </li>
+            <li class="nav-item init_icon">
+              <a href="https://t.me/MetaKeeperEN" target="_blank">
+                <img src="../images/header/Telegram_logo.png">
+              </a>
+
+            </li>
+            <li class="nav-item init_icon">
+              <a href="https://discord.com/invite/cNh2f5MdRy" target="_blank">
+                <img src="../images/header/Discord_logo.png">
+              </a>
+
+
+            </li>
+            <li class="nav-item init_icon" >
+              <a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?pli=1" target="_blank">
+                <img src="../images/header/Extensions_logo.png">
+              </a>
+
+            </li>
+            <li class="nav-item init_icon">
+              <a>
+                <img src="../images/header/Wallet_logo.png">
+              </a>
+
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- 介绍图片 -->
+  <div class="container-fluid main">
+    <div class="row main-top">
+      <div class="box_left col-lg-6">
+        <div class="left-text">
+          <img src="../images/home/Text input.png">
+        </div>
+        <div class="row main-btn">
+          <a class="conn_btn" type="btn" href="#" role="button">
+            <img src="../images/home/Game Connection_Targle.png">
+          </a>
+          <a class=" mate_btn" type="btn" href="#" role="button">
+            <img src="../images/home/Whitepaper_Targle.png">
+          </a>
+        </div>
+      </div>
+      <div class="img_main col-lg-6 row">
+        <div class="img_btn">
+          <a type="btn" href="gamepass.html" role="button">
+            <img src="../images/Layer/Get GamePass_Targle.svg" alt="SVG图像">
+          </a>
+        </div>
+        <div class="img_rig align-self-end">
+          <img src="../images/home/Rectangle 62.png" width="320px"
+            height="270px" class="float-end" />
+          <img src="../images/home/Rectangle 63.png" width="320px"
+            height="270px" class="float-end" />
+        </div>
+      </div>
+    </div>
+    <div class="main-foot ">
+      <a href="https://twitter.com/Meta_Keeper" target="_blank">
+        <img src="../images/footer/Twitter_logo.png">
+      </a>
+      <a href="https://t.me/MetaKeeperEN" target="_blank">
+        <img src="../images/footer/Telegram_logo.png">
+      </a>
+      <a href="https://discord.com/invite/cNh2f5MdRy" target="_blank">
+        <img src="../images/footer/Discord_logo.png">
+      </a>
+    </div>
+  </div>
+
+
+  <!-- 底部logo -->
+  <div class="foot">
+    <img src="../images/footer/Under.png">
+    <div class="footer_item">
+      <a href="https://twitter.com/Meta_Keeper" target="_blank">
+        <img src="../images/footer/Twitter_logo.png">
+      </a>
+      <a href="https://t.me/MetaKeeperEN" target="_blank">
+        <img src="../images/footer/Telegram_logo.png">
+      </a>
+      <a href="https://discord.com/invite/cNh2f5MdRy" target="_blank">
+        <img src="../images/footer/Discord_logo.png">
+      </a>
+    </div>
+  </div>
+
+</body>
+<script src="../bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

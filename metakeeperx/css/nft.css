@@ -1,0 +1,572 @@
+@font-face {
+    font-family: pressStart2P;
+    src: url('../fonts/PressStart2P.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* md (tablets, 768px(300%) and up) */
+  @media (max-width: 768.98px) {
+    .box_header {
+      height: 60px;
+      padding-right: 40px;
+      background-color: transparent;
+    }
+  
+    .img_logo {
+      width: 115px;
+      height: 60px;
+      margin-left: 50px;
+    }
+    .navbar-nav{
+      background-color: white;
+      padding: 5px;
+      width: 80px;
+      height: 100px;
+      
+    }
+  
+    .toggler_icon {
+      width: 30%;
+      display: block;
+    }
+  
+    .toggler_icon>a>svg {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .init_icon {
+      display: none;
+    }
+  
+    .toggler_btn {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .home_head{
+      border-top: 1px solid #000;
+      margin-top: 10px;
+      width: 100%;
+      /* background-color: rgb(111, 152, 240); */
+      position: relative;
+    }
+    .nft_head{
+      width: 100%;
+      margin-top: 10px;
+      /* background-color: rgb(201, 181, 80); */
+      position: relative;
+    }
+    .whitepaper_head{
+      width: 100%;
+      margin-top: 10px;
+      /* background-color: rgb(240, 111, 186); */
+    }
+  
+    .home_head>a{
+      padding: 0px;
+    }
+    .home_head>a>img{
+      content: url("../images/header/home3.png");
+      /* background-color: aquamarine; */
+      width: 50px;
+      height: 10px;
+    }
+    
+    .nft_head>a{
+      padding: 0px;
+    }
+    .nft_head>a>img{
+      /* background-color: aquamarine; */
+      content: url("../images/header/mint2.png");
+      width: 65px;
+      height: 10px;
+    }
+    .whitepaper_head>a{
+      padding: 0px;
+    }
+    .whitepaper_head>a>img{
+      /* background-color: aquamarine; */
+      content: url("../images/header/whit3.png");
+      width: 55px;
+      height: 10px;
+    }
+    .game_head{
+      display: none;
+
+      /* background-color: rgb(90, 165, 96); */
+    }
+  
+
+
+    .register{
+      display: block;
+      padding: 0px;
+      /* width:80px;
+      height: 20px; */
+      /* background-color: rgb(111, 240, 184); */
+    }
+    .register>a>img{
+      width:70px;
+      height: 20px;
+    }
+
+    .foot{
+      position: relative;
+    }
+    .foot>img{
+      width: 100%;
+    }
+    .footer_item{
+        display:inline;
+        position: absolute;
+        right: 22%;
+        bottom: 1px;
+    }
+    .footer_item>a>img{
+      width: 9px;
+      width: 9px;
+    }
+    .rectangle>img{
+      width: 70%;
+      height: 90%;
+      margin: 20px;
+    }
+  
+  }
+  
+  /* md (tablets, 768px(200%) and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .box_header {
+      height: 60px;
+      padding-right: 70px;
+      background-color: transparent;
+    }
+    .img_logo {
+      width: 150px;
+      height: 80px;
+      margin-left: 100px;
+    }
+    .navbar-nav{
+      background-color: white;
+      padding: 5px;
+      width: 100px;
+      height: 140px;
+      
+    }
+    .text_head_item {
+      /* background-color: rgb(34, 196, 45); */
+      font-size: 7px;
+      width: 100%;
+    }
+    .text_head_item a{
+      padding-left: 10px;
+    }
+    .home_head{
+      border-top: 1px solid #000;
+      margin-top: 22px;
+      width: 100%;
+      /* background-color: rgb(111, 152, 240); */
+      position: relative;
+    }
+    .nft_head{
+      width: 100%;
+      margin-top: 15px;
+      /* background-color: rgb(201, 181, 80); */
+      position: relative;
+    }
+    .whitepaper_head{
+      width: 100%;
+      margin-top: 15px;
+      /* background-color: rgb(240, 111, 186); */
+    }
+  
+    .home_head>a{
+      padding: 0px;
+    }
+    .home_head>a>img{
+      content: url("../images/header/home3.png");
+      /* background-color: aquamarine; */
+      width: 60px;
+      height: 15px;
+    }
+    
+    .nft_head>a{
+      padding: 0px;
+    }
+    .nft_head>a>img{
+      /* background-color: aquamarine; */
+      content: url("../images/header/mint2.png");
+      width: 80px;
+      height: 15px;
+    }
+    .whitepaper_head>a{
+      padding: 0px;
+    }
+    .whitepaper_head>a>img{
+      /* background-color: aquamarine; */
+      content: url("../images/header/whit3.png");
+      width: 80px;
+      height: 15px;
+    }
+    .game_head{
+      display: none;
+
+      /* background-color: rgb(90, 165, 96); */
+    }
+  
+    .register{
+      display: block;
+      padding: 0px;
+      /* width:80px;
+      height: 20px; */
+      /* background-color: rgb(111, 240, 184); */
+    }
+    .register>a>img{
+      width:70px;
+      height: 20px;
+    }
+    .navbar-nav>li>a>svg {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .toggler_icon {
+      width: 45%;
+      display: block;
+    }
+  
+    .init_icon {
+      display: none;
+    }
+
+    .foot{
+      position: relative;
+    }
+    .foot>img{
+      width: 100%;
+    }
+    .footer_item{
+        display:inline;
+        position: absolute;
+        right: 22%;
+        bottom: 5px;
+    }
+    .footer_item>a>img{
+      width: 12px;
+      width: 12px;
+    }
+    .rectangle>img{
+      width: 70%;
+      height: 90%;
+      margin: 50px;
+    }
+  }
+  
+  /* lg (desktops, 992px (175%)and up) */
+  @media (min-width: 992px) {
+    .box_header {
+      background-color: transparent;
+      height:30px;
+      padding-right: 70px;
+      /* background-color:rgb(134, 198, 114); */
+    }
+    .navbar-nav{
+      background-color:rgba(0,0,0,0);
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .img_logo {
+      width: 180px;
+      height: 100px;
+      margin-left: 110px;
+    }
+  
+    /* .text_head_item {
+      font-size: 10px;
+    } */
+  
+    .home_head{
+      width: 12%;
+      height: 25px;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      /* background-color: rgb(111, 152, 240); */
+      position: relative;
+    }
+    .home_head>a{
+      padding: 0px;
+    }
+    .home_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/home1.png"); */
+      width: 50px;
+      height: 25px;
+    }
+    
+    
+    .nft_head{
+      width: 21%;
+      height: 25px;
+      position: relative;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      /* background-color: rgb(201, 181, 80); */
+    }
+    .nft_head>a{
+      padding: 0px;
+    }
+    .nft_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/mint.png"); */
+      width: 100px;
+      height: 25px;
+    }
+    .whitepaper_head{
+      width: 21%;
+      height: 25px;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      /* background-color: rgb(240, 111, 186); */
+    }
+    .whitepaper_head>a{
+      padding: 0px;
+    }
+    .whitepaper_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/whit1.png"); */
+      width: 100px;
+      height: 25px;
+    }
+  
+    .game_head{
+      width: 21%;
+      height: 25px;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      display: block;
+      /* background-color: rgb(90, 165, 96); */
+    }
+    .game_head>a{
+      padding: 0px;
+    }
+    .game_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/whit1.png"); */
+      width: 100px;
+      height: 25px;
+    }
+    .register{
+      display: none;
+    }
+  
+    .toggler_icon {
+      width: 0px;
+      display: none;
+    }
+  
+    .init_icon {
+      height: 25px;
+      width: 5%;
+      margin-top: 3px;
+      display: flex;
+      align-items: center;
+    }
+    .init_icon>a >img{
+      width: 80%;
+      height: 80%;
+      /* background-color: burlywood; */
+    }
+  
+    /* .text_head_item a:hover {
+      color: white;
+    }
+  
+    .text_head_item a:focus {
+      color: white !important;
+      font-size: 12px !important;
+      border-radius: 2 !important;
+    }
+  
+    .text_head_item a:active {
+      color: white !important;
+      font-size: 12px !important;
+      border-radius: 2 !important;
+  
+    } */
+    .foot{
+      position: relative;
+    }
+    .foot>img{
+      width: 100%;
+    }
+    .footer_item{
+        display:inline;
+        position: absolute;
+        right: 22%;
+        bottom: 8px;
+    }
+    .footer_item>a>img{
+      width: 15px;
+      width: 15px;
+    }
+    .rectangle>img{
+      width: 70%;
+      height: 90%;
+      margin: 60px;
+    }
+   
+  }
+  
+  /* xl devices (large desktops, 1200px (100%) and up) */
+  @media (min-width: 1200px) {
+    .box_header {
+      /* background-color: transparent; */
+      height: 40px;
+      padding-top: 0px;
+      padding-right:90px;
+      width: 100%;
+      /* background-color: aquamarine; */
+    }
+    .navbar-nav{
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      /* background-color: blue; */
+      justify-content: end;
+    }
+    .img_logo {
+      width: 280px;
+      height: 160px;
+      margin-left: 200px;
+    }
+  
+    .home_head{
+      width: 12%;
+      height: 100%;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      /* background-color: rgb(111, 152, 240); */
+      position: relative;
+    }
+    .home_head>a{
+      padding: 0px;
+    }
+    .home_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/home1.png"); */
+      width: 70px;
+      height: 32px;
+    }
+    .nft_head{
+      width: 21%;
+      height: 100%;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      position: relative;
+      /* background-color: rgb(201, 181, 80); */
+    }
+    .nft_head>a{
+      padding: 0px;
+    }
+    .nft_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/mint.png"); */
+      width: 120px;
+      height: 32px;
+    }
+    .whitepaper_head{
+      width: 21%;
+      height: 40px;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+ 
+      /* background-color: rgb(240, 111, 186); */
+    }
+    .whitepaper_head>a{
+      padding: 0px;
+    }
+    .whitepaper_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/whit1.png"); */
+      width: 125px;
+      height: 32px;
+    }
+    .game_head{
+      width: 21%;
+      height: 40px;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 0px;
+      display: block;
+
+      /* background-color: rgb(90, 165, 96); */
+    }
+    .game_head>a{
+      padding: 0px;
+    }
+    .game_head>a>img{
+      /* background-color: aquamarine; */
+      /* content: url("../images/header/whit1.png"); */
+      width: 120px;
+      height: 32px;
+    }
+    .register{
+      display: none;
+    }
+
+    .toggler_icon {
+      width: 0px;
+      display: none;
+    }
+  
+    .init_icon {
+      height: 100%;
+      width: 5%;
+      margin-top: 3px;
+      display: flex;
+      align-items: center;
+    }
+    .init_icon>a >img{
+      width: 90%;
+      height:  90%;
+      /* background-color: burlywood; */
+    }
+  
+    .foot{
+      position: relative;
+    }
+    .foot>img{
+      width: 100%;
+    }
+    .footer_item{
+        display:inline;
+        position: absolute;
+        right: 25%;
+        bottom: 10px;
+    }
+    .footer_item>a>img{
+      width: 25px;
+      width: 25px;
+    }
+    .rectangle>img{
+      width: 70%;
+      height: 90%;
+      margin: 100px;
+    }
+  }
+  
+  .navbar-nav>li>a {
+    color: white;
+  }
+

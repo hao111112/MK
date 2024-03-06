@@ -1,0 +1,105 @@
+var character_data={
+    "count":20,
+    "resulSet":[
+        {
+            "id": "1",
+            "img": "../images/character/character.png",
+            "price": "501"
+        },
+        {
+            "id": "2",
+            "img": "../images/character/character.png",
+            "price": "502"
+        },
+        {
+            "id": "3",
+            "img": "../images/character/character.png",
+            "price": "503"
+        },
+        {
+            "id": "4",
+            "img": "../images/character/character.png",
+            "price": "504"
+        },
+        {
+            "id": "5",
+            "img": "../images/character/character.png",
+            "price": "505"
+        },
+        {
+            "id": "6",
+            "img": "../images/character/character.png",
+            "price": "601"
+        },
+        {
+            "id": "7",
+            "img": "../images/character/character.png",
+            "price": "502"
+        },
+        {
+            "id": "8",
+            "img": "../images/character/character.png",
+            "price": "503"
+        },
+        {
+            "id": "9",
+            "img": "../images/character/character.png",
+            "price": "504"
+        },
+        {
+            "id": "10",
+            "img": "../images/character/character.png",
+            "price": "505"
+        },
+        {
+            "id": "11",
+            "img": "../images/character/character.png",
+            "price": "501"
+        },
+        {
+            "id": "12",
+            "img": "../images/character/character.png",
+            "price": "502"
+        },
+        {
+            "id": "13",
+            "img": "../images/character/character.png",
+            "price": "503"
+        },
+        {
+            "id": "14",
+            "img": "../images/character/character.png",
+            "price": "504"
+        },
+        {
+            "id": "15",
+            "img": "../images/character/character.png",
+            "price": "505"
+        },
+        {
+            "id": "16",
+            "img": "../images/character/character.png",
+            "price": "601"
+        },
+        {
+            "id": "17",
+            "img": "../images/character/character.png",
+            "price": "502"
+        },
+        {
+            "id": "18",
+            "img": "../images/character/character.png",
+            "price": "503"
+        },
+        {
+            "id": "19",
+            "img": "../images/character/character.png",
+            "price": "504"
+        },
+        {
+            "id": "20",
+            "img": "../images/character/character.png",
+            "price": "505"
+        }
+    ]
+}

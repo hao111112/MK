@@ -1,0 +1,89 @@
+
+/* md (tablets, 768px(300%) and up) */
+@media (max-width: 768.98px) {
+    .grocerys{
+        padding: 0px;
+        width: 80%;
+    }
+    .grocery{
+        /* background-color: chartreuse; */
+        padding: 20px;
+    }
+    .shop{
+        height: 250px;
+        width: 400px;
+        /* background-color: bisque; */
+
+    }
+    .shop >img{
+        height: 250px;
+        width: 400px;
+    }
+}
+
+/* md (tablets, 768px(200%) and up) */
+@media (min-width: 768px) {
+    .grocerys{
+        padding: 0px;
+        width: 80%;
+    }
+    .grocery{
+        /* background-color: chartreuse; */
+        padding: 30px;
+    }
+    .shop{
+        height: 350px;
+        width: 550px;
+        /* background-color: bisque; */
+
+    }
+    .shop >img{
+        height: 350px;
+        width: 550px;
+    }
+}
+
+
+/* lg (desktops, 992px (175%)and up) */
+@media (min-width: 992px) {
+    .grocerys{
+        padding: 0px;
+        width: 80%;
+    }
+    .grocery{
+        /* background-color: chartreuse; */
+        padding: 40px;
+    }
+    .shop{
+        height: 450px;
+        width: 650px;
+        /* background-color: bisque; */
+
+    }
+    .shop >img{
+        height: 450px;
+        width: 650px;
+    }
+}
+
+/* xl devices (large desktops, 1200px (100%) and up) */
+@media (min-width: 1200px) {
+    .grocerys{
+        padding: 0px;
+        width: 80%;
+    }
+    .grocery{
+        /* background-color: chartreuse; */
+        padding: 50px;
+    }
+    .shop{
+        height: 600px;
+        width: 900px;
+        /* background-color: bisque; */
+
+    }
+    .shop >img{
+        height: 600px;
+        width: 900px;
+    }
+}
