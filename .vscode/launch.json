@@ -8,9 +8,9 @@
             "type": "chrome",
             "request": "launch",
             "name": "针对 localhost 启动 Chrome",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:8081",
             "webRoot": "${workspaceFolder}",
-            "file":"${workspaceFolder}/metakeeperx/html/home.html"
+            "file":"${workspaceFolder}/metakeeperx/html/nft.html"
         }
     ]
 }
