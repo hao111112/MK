@@ -11,7 +11,11 @@ app.get("/gamepass.html",(req,res)=>{
 app.get("/nft.html",(req,res)=>{
     res.sendFile(path.join( __dirname + "/metakeeperx/html/nft.html"));
 })
-const server = app.listen(8081, () => {
+
+app.get("/home.html",(req,res)=>{
+    res.sendFile(path.join( __dirname + "/metakeeperx/html/home.html"));
+})
+const server = app.listen(8082, () => {
     const portNumber = server.address().port;
     console.log( `port is open on ${portNumber}` );
 });
