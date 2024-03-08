@@ -99,11 +99,13 @@
         width: 65px;
         height: 10px;
     }
-    .game_head{
+
+    .game_head {
         display: none;
-  
+
         /* background-color: rgb(90, 165, 96); */
-      }
+    }
+
     .register {
         display: block;
         padding: 0px;
@@ -167,14 +169,24 @@
 
     .left-text {
         /* background-color: aquamarine; */
-        height: 160px;
-        width: 280px;
+        height: 110px;
+        width: 260px;
+        margin-top: 20px;
     }
 
-    .left-text>img {
+    .gamepass_title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .gamepass_title_item {
+        font-size: 7px;
+    }
+
+    /* .left-text>img {
         height: 160px;
         width: 280px;
-    }
+    } */
 
     .box_left {
         padding-top: 10px;
@@ -192,12 +204,11 @@
         margin-top: 10px;
     }
 
-    .left-price-item>img {
-        width: 100%;
-        height: 100%;
+    .left-price-item{
+        font-size: 5px;
     }
 
-    .sum{
+    .sum {
         color: white;
         font-size: 10px;
         margin-right: 10px;
@@ -224,18 +235,19 @@
         width: 90%;
         height: 15px;
     }
-    .game_time{
+
+    .game_time {
         /* background-color: aqua; */
         color: white;
         width: 270px;
         height: 30px;
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 20px;
     }
-    .game_time >img{
 
-        width: 22px;
-        height: 22px;
+    .game_time>img {
+        width: 18px;
+        height: 18px;
     }
 
 }
@@ -326,11 +338,13 @@
         width: 80px;
         height: 15px;
     }
-    .game_head{
+
+    .game_head {
         display: none;
-  
+
         /* background-color: rgb(90, 165, 96); */
-      }
+    }
+
     .register {
         display: block;
         padding: 0px;
@@ -408,14 +422,24 @@
 
     .left-text {
         /* background-color: aquamarine; */
-        height: 230px;
+        height: 160px;
         width: 330px;
+        margin-top: 50px;
     }
 
-    .left-text>img {
+    .gamepass_title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .gamepass_title_item {
+        font-size: 10px;
+    }
+
+    /* .left-text>img {
         height: 230px;
         width: 330px;
-    }
+    } */
 
     .box_left {
         padding-top: 10px;
@@ -433,12 +457,11 @@
         margin-top: 10px;
     }
 
-    .left-price-item>img {
-        width: 100%;
-        height: 100%;
+    .left-price-item {
+        font-size: 7px;
     }
 
-    .sum{
+    .sum {
         color: white;
         font-size: 16px;
         margin-right: 10px;
@@ -465,7 +488,8 @@
         width: 90%;
         height: 25px;
     }
-    .game_time{
+
+    .game_time {
         /* background-color: aqua; */
         color: white;
         width: 350px;
@@ -473,7 +497,8 @@
         font-size: 15px;
         margin-top: 20px;
     }
-    .game_time >img{
+
+    .game_time>img {
         width: 22px;
         height: 22px;
     }
@@ -655,14 +680,24 @@
 
     .left-text {
         /* background-color: aquamarine; */
-        height: 280px;
-        width: 480px;
+        height: 200px;
+        width: 400px;
+        margin-top: 60px;
     }
 
-    .left-text>img {
+    .gamepass_title {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+
+    .gamepass_title_item {
+        font-size: 10px;
+    }
+
+    /* .left-text>img {
         height: 100%;
         width: 100%;
-    }
+    } */
 
     .box_left {
         padding-top: 50px;
@@ -681,11 +716,11 @@
         /* background-color: blueviolet; */
     }
 
-    .left-price-item>img {
-        width: 100%;
+    .left-price-item{
+        font-size: 9px;
     }
 
-    .sum{
+    .sum {
         color: white;
         font-size: 22px;
         margin-right: 10px;
@@ -713,15 +748,16 @@
         height: 30px;
     }
 
-    .game_time{
+    .game_time {
         /* background-color: aqua; */
         color: white;
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 20px;
     }
-    .game_time >img{
-        width: 30px;
-        height: 30px;
+
+    .game_time>img {
+        width: 25px;
+        height: 25px;
     }
 
 }
@@ -898,14 +934,25 @@
 
     .left-text {
         /* background-color: aquamarine; */
-        height: 450px;
-        width: 680px;
+        height: 300px;
+        width: 610px;
+        margin-top: 100px;
     }
 
-    .left-text>img {
+    .gamepass_title {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .gamepass_title_item {
+        font-size: 16px;
+    }
+
+
+    /* .left-text>img {
         height: 100%;
         width: 100%;
-    }
+    } */
 
     .main-btn {
         width: 560px;
@@ -920,11 +967,13 @@
         margin-top: 20px;
     }
 
-    .left-price-item>img {
-        width: 100%;
+    .left-price-item{
+        margin-left: 20px;
+        font-size: 12px;
+        /* background-color: aqua; */
     }
 
-    .sum{
+    .sum {
         color: white;
         font-size: 35px;
         margin-right: 10px;
@@ -951,20 +1000,17 @@
         width: 90%;
         height: 45px;
     }
-    .game_time{
+
+    .game_time {
         /* background-color: aqua; */
         color: white;
         font-size: 30px;
         margin-top: 50px;
     }
-    .game_time >img{
+
+    .game_time>img {
         width: 45px;
         height: 45px;
     }
 
-    
-
-    /* .img_main{
-      background-color: antiquewhite;
-    } */
 }
