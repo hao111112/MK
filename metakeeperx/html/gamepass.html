@@ -206,13 +206,12 @@
 						</p>
 					</div>
 				</div>
-				<div class="d-flex game_time justify-content-center">
+				<div class="d-flex game_time justify-content-center" font-family: pressStart2P;>
 					<img src="../images/gamepass/Vector.png">
-					<p id="timer" style="color: white;margin-left: 15px;"></p>
+					<p id="timer" style="color: white;margin-left: 15px;">15 Days</p>
 				</div>
 			</div>
 			<div class="img_main col-lg-6 row">
-
 			</div>
 		</div>
 	</div>
@@ -886,7 +885,9 @@
 <!-- 倒计时 -->
 <script>
 	$(document).ready(function () {
-		var endTime = new Date("March 10, 2024 14:38:00"); // 设置结束时间为指定日期和时间
+
+	 	// 设置结束时间为指定日期和时间
+		// var endTime = new Date("March 15, 2024 14:38:00");
 
 		function updateTimer() {
 			currentTime = new Date(); // 获取当前时间
@@ -897,13 +898,13 @@
 			} else {
 				var timeRemaining = Math.floor((endTime - currentTime) / 1000); // 计算剩余时间（单位：秒）
 
-				// var days = Math.floor(timeRemaining / (24 * 60 * 60)); // 天数部分
-				// var hours = Math.floor((timeRemaining % (24 * 60 * 60)) / (60 * 60)); // 小时部分
-				var hours = Math.floor(timeRemaining / (60 * 60));
+				var days = Math.floor(timeRemaining / (24 * 60 * 60)); // 天数部分
+				var hours = Math.floor((timeRemaining % (24 * 60 * 60)) / (60 * 60)); // 小时部分
+				// var hours = Math.floor(timeRemaining / (60 * 60));
 				var minutes = Math.floor((timeRemaining % (60 * 60)) / 60); // 分钟部分
 				var seconds = Math.floor(timeRemaining % 60); // 秒数部分
 
-				$("#timer").text(`${hours}:${minutes}:${seconds}`); // 更新倒计时显示内容
+				$("#timer").text(`${days}Days ${hours}:${minutes}:${seconds}`); // 更新倒计时显示内容
 			}
 		}
 
