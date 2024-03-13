@@ -25,6 +25,9 @@
         padding: 5px;
         width: 80px;
         height: 100px;
+        position: absolute;
+        border-radius: 10px;
+        right: 12px;
     }
 
     .toggler_icon {
@@ -47,9 +50,11 @@
     }
 
     .home_head {
-        border-top: 1px solid #000;
+        border-top: 1px solid  #777272;
         margin-top: 10px;
         width: 100%;
+        padding-top: 5px;
+        padding-left: 8px;
         /* background-color: rgb(111, 152, 240); */
         position: relative;
     }
@@ -57,6 +62,7 @@
     .nft_head {
         width: 100%;
         margin-top: 10px;
+        padding-left: 8px;
         /* background-color: rgb(201, 181, 80); */
         position: relative;
     }
@@ -64,6 +70,7 @@
     .whitepaper_head {
         width: 100%;
         margin-top: 10px;
+        padding-left: 8px;
         /* background-color: rgb(240, 111, 186); */
     }
 
@@ -109,14 +116,15 @@
     .register {
         display: block;
         padding: 0px;
+        margin-left: 6px;
         /* width:80px;
       height: 20px; */
         /* background-color: rgb(111, 240, 184); */
     }
 
     .register>a>img {
-        width: 70px;
-        height: 20px;
+        width:60px;
+        height: 15px;
     }
 
     .foot {
@@ -271,7 +279,9 @@
         padding: 5px;
         width: 100px;
         height: 140px;
-
+        border-radius: 10px;
+        position: absolute;
+        right: 12px;
     }
 
     .text_head_item {
@@ -285,16 +295,19 @@
     }
 
     .home_head {
-        border-top: 1px solid #000;
+        border-top: 1px solid #777272;
         margin-top: 22px;
         width: 100%;
         /* background-color: rgb(111, 152, 240); */
+        padding-top: 5px;
+        padding-left: 8px;
         position: relative;
     }
 
     .nft_head {
         width: 100%;
         margin-top: 15px;
+        padding-left: 8px;
         /* background-color: rgb(201, 181, 80); */
         position: relative;
     }
@@ -302,6 +315,7 @@
     .whitepaper_head {
         width: 100%;
         margin-top: 15px;
+        padding-left: 8px;
         /* background-color: rgb(240, 111, 186); */
     }
 
@@ -348,6 +362,7 @@
     .register {
         display: block;
         padding: 0px;
+        margin-left: 0px;
         /* width:80px;
       height: 20px; */
         /* background-color: rgb(111, 240, 184); */
