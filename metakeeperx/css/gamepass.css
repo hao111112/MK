@@ -534,6 +534,7 @@
         padding: 0px;
         width: 100%;
         height: 100%;
+        justify-content: end;
     }
 
     .img_logo {
@@ -786,6 +787,7 @@
         height: 40px;
         padding-top: 0px;
         padding-right: 90px;
+        width: 100%;
         /* background-color: aquamarine; */
     }
 
@@ -793,7 +795,7 @@
         padding: 0px;
         width: 100%;
         height: 100%;
-
+        justify-content: end;
     }
 
     .img_logo {
@@ -1028,4 +1030,22 @@
         height: 45px;
     }
 
+}
+body {
+    background-image: url("../images/gamepass/Content.png");
+    transition: background-image 2s ease-in-out;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(34, 36, 50);
+    display: block;
+    font-family: pressStart2P;
+}
+
+a {
+    color: inherit;
+    /* 设置颜色为默认值（inherit）*/
+    text-decoration: none;
+    /* 移除下划线效果 */
 }
