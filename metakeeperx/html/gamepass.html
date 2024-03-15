@@ -853,11 +853,10 @@
 				};
 				// 调用合约的 mintMeta 函数
 				const transactionReceipt = await contract.methods.mintMeta(1).send(transactionParameters).on('transactionHash', function (hash) {
-					console.log('ransactionReceipt hash:', hash);
-					console.log('Transaction successful:');
-					alert("一共买了1个")
+					// console.log('ransactionReceipt hash:', hash);
+					// console.log('Transaction successful:');
 					var num = parseInt(game_remain.innerHTML) - 1;
-					console.log("game_remain" + num);
+					// console.log("game_remain" + num);
 					sessionStorage.setItem('game-remain', num);
 					document.getElementById('game-remain').innerHTML = num;
 				})
