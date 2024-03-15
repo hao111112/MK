@@ -842,13 +842,14 @@
 						"type": "function"
 					}
 				];
-				const Address = "0xbf1ef6E2F426fb283b8768a21c49f0B01A8427cE";//通行证的合约Address
+				const Address = "0xDC933f5AdFE11De9D7cD7574D45B5c520E76726E";//通行证的合约Address
 				window.web3 = await new Web3(window.ethereum);
 				window.contract = await new window.web3.eth.Contract(ABI, Address);
 				// 设置交易参数
 				const transactionParameters = {
 					from: account,
 					value: web3.utils.toWei(`${0.01}`, 'ether'), // 设置购买 NFT 的金额
+					
 				};
 				// 调用合约的 mintMeta 函数
 				const transactionReceipt = await contract.methods.mintMeta(1).send(transactionParameters).on('transactionHash', function (hash) {
