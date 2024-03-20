@@ -1,0 +1,30 @@
+在项目文件夹下。启动git控制塔，输入git init
+git add XXX文件 或者直接全部文件
+git commit -m ‘XXXXX’
+这一步很关键，关键 很多人出错在这一步，我也是：
+先直接登录git，在git网站上手动新建一个仓库，然后安装下面的流程走
+/
+关联github仓库
+复制刚才新建的仓库地址：
+执行命令：
+git remote add origin git@github.com:/用户名/项目名称.git
+注意：
+如果出现错误：fatal: remote origin already exists，则执行以下语句：
+git remote rm origin
+再重新执行：
+git remote add origin git@github.com:/用户名/项目名称.git
+即可成功。
+最后执行命令：
+git push origin master
+如果出现错误failed to push som refs to…….，则执行以下语句，先把远程服务器github上面的文件拉先来
+git pull origin main
+然后再运行push命令 上去
+、、、、、、、、、、、、、、、、、、、、
+到处项目文件就会全部上传到git上去
+、、、、、、、、、、、、、、、、、、、、、、、、、、、
+**二. 如果你修改了代码文件，想同步到git,
+修改文件后，怎么提交到远程仓库
+1.git status 查看git是否有修改内容需要提交，查看文件修改的状态。红色的就是修改过的文件
+2.git add *指向需要提交的内容文件，把所有文件都加入，这时候在输入git status，就看到编程了绿色。这个时候文件已经添加都本地仓库了
+3.git commit -m ‘注释’，将add的文件commit到仓库
+4.git push origin main 提交到远程仓库
